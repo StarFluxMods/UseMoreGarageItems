@@ -18,7 +18,7 @@ namespace UseMoreGarageItems
     {
         public const string MOD_GUID = "com.starfluxgames.usemoregarageitems";
         public const string MOD_NAME = "Use More Garage Items";
-        public const string MOD_VERSION = "0.1.0";
+        public const string MOD_VERSION = "0.1.1";
         public const string MOD_AUTHOR = "StarFluxGames";
         public const string MOD_GAMEVERSION = ">=1.1.9";
 

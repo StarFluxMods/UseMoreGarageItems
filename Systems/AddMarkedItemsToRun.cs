@@ -47,6 +47,8 @@ namespace UseMoreGarageItems.Systems
                     ID = GetComponent<CProvidesLoadoutItem>(cItemHolder.HeldItem).ID
                 });
                 EntityManager.DestroyEntity(cItemHolder.HeldItem);
+                cAddToRun.shouldAdd = false;
+                EntityManager.SetComponentData(pedestal, cAddToRun);
             }
         }
     }
